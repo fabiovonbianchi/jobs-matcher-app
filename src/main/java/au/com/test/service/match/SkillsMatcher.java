@@ -8,6 +8,10 @@ import org.springframework.util.CollectionUtils;
 import au.com.test.model.Job;
 import au.com.test.model.Worker;
 
+/**
+ * Match worker skills with job title
+ *
+ */
 public class SkillsMatcher extends WeightedMatcher {
 
 	@Override

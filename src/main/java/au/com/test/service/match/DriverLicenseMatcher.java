@@ -3,6 +3,10 @@ package au.com.test.service.match;
 import au.com.test.model.Job;
 import au.com.test.model.Worker;
 
+/**
+ * Match driving license requirements
+ *
+ */
 public class DriverLicenseMatcher extends WeightedMatcher {
 
 	@Override
@@ -10,7 +14,7 @@ public class DriverLicenseMatcher extends WeightedMatcher {
 		if (job.isDriverLicenseRequired()) {
 			return worker.isHasDriversLicense() == true;
 		}
-		return false;
+		return true;
 		
 	}
 

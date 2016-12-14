@@ -3,6 +3,10 @@ package au.com.test.service.match;
 import au.com.test.model.Job;
 import au.com.test.model.Worker;
 
+/**
+ * Match a price preference according to worker age
+ *
+ */
 public class AgeMatcher extends WeightedMatcher {
 
 	@Override

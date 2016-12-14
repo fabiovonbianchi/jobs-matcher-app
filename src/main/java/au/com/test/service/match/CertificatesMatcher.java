@@ -8,6 +8,10 @@ import org.springframework.util.CollectionUtils;
 import au.com.test.model.Job;
 import au.com.test.model.Worker;
 
+/**
+ * Match if worker has required certificates
+ *
+ */
 public class CertificatesMatcher extends WeightedMatcher {
 
 

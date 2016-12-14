@@ -3,6 +3,10 @@ package au.com.test.service.match;
 import au.com.test.model.Job;
 import au.com.test.model.Worker;
 
+/**
+ * Match the worker preferred max distance to a job location
+ *
+ */
 public class LocationMatcher extends WeightedMatcher {
 
 	@Override
